@@ -7,7 +7,7 @@ python3, wps
 
 python packages:
 
-  itchat,win32com,win10toast,pyftpdlib
+    itchat,win32com,win10toast,pyftpdlib
   
 # Start using:
 
@@ -15,7 +15,7 @@ Go into the 'simplest ftp server.py' and change the ip address as yours.
 
 If you are linux, change the PDF converting part to using libreoffice:
 
-  os.system('libreoffice --convert-to pdf "'+filename+'"')
+    os.system('libreoffice --convert-to pdf "'+filename+'"')
   
 For decoding&encoding resons, i have modified the zipfile module, changing cp* codings to gbk. You can search in Baidu:python zipfile 乱码 and see how people in CSDN solved it. 
 

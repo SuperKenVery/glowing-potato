@@ -21,11 +21,11 @@ For decoding&encoding resons, i have modified the zipfile module, changing cp* c
 
 For persistent notification and staying in the notification center, i modified the win10toast module. First, pass duration=-1 to trigger an error, and locate the position that win10toast destroys the notification. Then add an if-clause:
 
-  if duration>0:
+    if duration>0:
 
-    #original code
+      #original code
 
-    return
+      return
 
 remember to make return IN the if clause! 
 
